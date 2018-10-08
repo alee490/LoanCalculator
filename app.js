@@ -7,13 +7,12 @@ document.getElementById('loan-form').addEventListener('submit', function(e){
     document.getElementById('loading').style.display = 'block';
 
     setTimeout(calculateResults, 1000);
-
     e.preventDefault();
 });
 
 // Calculate Results
 function calculateResults() {
-    console.log('Calculating...');
+    //console.log('Calculating...');
     // UI Vars
     const amount = document.getElementById('amount');
     const interest = document.getElementById('interest');
